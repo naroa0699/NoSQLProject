@@ -1,0 +1,4 @@
+EXPIRE name 60         # expire in 60 seconds
+TTL name               # time to live
+DEL name               # delete a key
+KEYS *                 # list all keys

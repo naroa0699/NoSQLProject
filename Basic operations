@@ -1,0 +1,5 @@
+Set nombre "Juan"
+get nombre
+del nombre
+exists nombre
+keys*

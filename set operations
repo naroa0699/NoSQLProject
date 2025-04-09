@@ -1,0 +1,4 @@
+sadd mi_conjunto "Elemento1"
+smembers mi_conjunto
+srem mi_conjunto "Elemento1"
+sismember mi_conjunto "Elemento1"

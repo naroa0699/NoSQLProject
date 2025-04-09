@@ -1,0 +1,5 @@
+lpush mi_lista "Elemento1"
+rpush mi_lista "Elemento2"
+lpop mi_lista
+rpop mi_lista
+lrange mi_lista 0 -1

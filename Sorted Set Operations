@@ -1,0 +1,4 @@
+ZADD scores 100 "Alice" 200 "Bob"
+ZRANGE scores 0 -1 WITHSCORES
+ZREM scores "Alice"
+ZREVRANGE scores 0 -1
